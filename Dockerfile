@@ -1,4 +1,4 @@
-FROM 1and1internet/ubuntu-16-nginx-1.10.0-php-5.6:unstable
+FROM 1and1internet/ubuntu-16-nginx-1.10.0-php-5.6:latest
 MAINTAINER james.wilkins@fasthosts.co.uk
 ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR /var/www/html
