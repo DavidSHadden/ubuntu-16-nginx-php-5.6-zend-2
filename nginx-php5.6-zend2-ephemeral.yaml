@@ -5,7 +5,7 @@ labels:
 metadata:
   name: nginx-php5.6-zend2-ephemeral
   annotations:
-    description: "Nginx 1.10.0 with PHP 7.0 and Zend Framework 2"
+    description: "Nginx 1.10.0 with PHP 5.6 and Zend Framework 2"
     iconClass: "icon-zend"
     tags: "quickstart,php,zend"
 objects:
