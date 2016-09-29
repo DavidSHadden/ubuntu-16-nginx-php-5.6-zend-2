@@ -6,7 +6,7 @@ RUN \
   apt-get update && \
   apt-get install -y git && \
   apt-get autoremove -y && \
-  mkdir /usr/src/tmp /usr/src/tmp/zend && \
+  mkdir /usr/src/tmp/zend && \
   chmod -R 777 /usr/src/tmp && \
   cd /usr/src/tmp/zend && \
   composer create-project --repository-url="https://packages.zendframework.com" zendframework/skeleton-application . 2.3.3 && \
